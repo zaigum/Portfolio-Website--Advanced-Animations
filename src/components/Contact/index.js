@@ -7,15 +7,16 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
 const Contact = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
-  const form = useRef()
+  const [letterClass, setLetterClass] = useState('text-animate');
+  const form = useRef();
 
   useEffect(() => {
-    return setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 3000)
-  }, [])
+    const timeout = setTimeout(() => {
+      setLetterClass('text-animate-hover');
+    }, 3000);
 
+     return () => clearTimeout(timeout);
+  }, []);
   const sendEmail = (e) => {
     e.preventDefault()
 
