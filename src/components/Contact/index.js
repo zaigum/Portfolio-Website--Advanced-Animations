@@ -45,9 +45,10 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+            Full-Stack .NET & React Developer with 2+ years of experience building
+            scalable web solutions. I specialize in ASP.NET Core, SQL Server, and
+            modern JavaScript frameworks. Open to freelance opportunities and
+            exciting projects. Feel free to reach out!
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -86,20 +87,20 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Full-Stack Developer,
           <br />
-          Serbia,
+          Pakistan,
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
+          Available for Remote Work <br />
+          Worldwide <br />
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>your-email@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[30.3753, 69.3451]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[30.3753, 69.3451]}>
-              <Popup>Your desired location popup text here :)</Popup>
+              <Popup>Full-Stack .NET & React Developer - Available for Remote Projects</Popup>
             </Marker>
           </MapContainer>
         </div>
