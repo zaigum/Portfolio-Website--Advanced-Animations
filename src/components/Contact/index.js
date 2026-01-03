@@ -94,7 +94,7 @@ const Contact = () => {
           Available for Remote Work <br />
           Worldwide <br />
           <br />
-          <span>your-email@gmail.com</span>
+          <span>thezaigum@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[30.3753, 69.3451]} zoom={13}>
